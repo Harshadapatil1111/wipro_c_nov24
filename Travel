@@ -1,0 +1,34 @@
+/*Check if the person can travel with following conditions:
+If it is raining, he cannot travel
+If it is sunny, he cannot travel if temperature is more than 35 Deg
+If it is cloudy and he cannot travel if it is lightning*/
+
+#include<stdio.h>
+#include <string.h>
+int main()
+{
+char climate[20];
+int temp;
+printf("Enter the current climate as given\n=");
+printf("\nrainy,\nsunny,\ncloudy");
+scanf("%s", climate);
+printf("Enter the temperture=");
+scanf("%d", &temp=");
+if(rainy==0)
+{
+printf(" it is raining, he cannot travel");
+}
+else if (sunny==0 && temp>=35)
+{
+printf(" it is sunny, he cannot travel if temperature is more than 35 Deg")
+}
+else if(cloudy,lightning==0)
+{
+printf(" it is cloudy and he cannot travel if it is lightning");
+}
+else
+{
+printf("He can travel")
+}
+return 0;
+}
