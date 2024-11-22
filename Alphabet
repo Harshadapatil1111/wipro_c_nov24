@@ -1,0 +1,31 @@
+/*Give assignments to students.
+Assignments:
+ Check if an alphabet is small case
+ Convert a small case letter to upper case
+ Convert a upper case letter to small case
+ Check if an alphabet is upper case
+ Check if a character is a digit or alphabet or a symbol
+ Check if a number is 2 digit number*/
+
+
+#include<stdio.h>
+#include <string.h>
+int main()
+{
+char alpha[20];
+printf("Enter any alphabets=");
+scanf("%c", &alpha);
+if(ch>='65' && ch<='90');
+{
+printf("Entered alphabet is a upper case");
+}
+else if(ch>=97 && ch<=122)
+{
+printf("\n Enter alphabet is a lower case");
+}
+else if(ch>=48 && ch<=57)
+{
+printf("You enter digit");
+}
+return 0;
+}
